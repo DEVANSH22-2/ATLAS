@@ -1,0 +1,11 @@
+streamlit
+langchain
+langchain-core
+langchain-community
+langchain-google-genai
+langgraph
+pandas
+chromadb
+pypdf
+python-dotenv
+sqlalchemy
