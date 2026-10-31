@@ -1,0 +1,14 @@
+# Internal Operating Playbook & Governance Guidelines
+
+## 1. Refund & Cancellation Policy
+- Full Refunds: Customers can request a 100% refund within 14 days of subscription or purchase with transaction proof.
+- Store Credit: Requests made between 15 and 30 days are eligible only for equivalent platform credits.
+- Non-Refundable: No refunds or credits are permitted after 30 days under any circumstances.
+
+## 2. Financial Safety Thresholds
+- Emergency Runway Threshold: If operational runway drops below 6.0 months (calculated as cash_in_bank / monthly_burn < 6.0), the company enters a "Yellow Alert". All discretionary marketing spend and new hiring approvals are immediately frozen.
+- Target Gross Margin: All direct customer acquisition campaigns must maintain a CAC below $100 per acquired user.
+
+## 3. Communication & Executive Standards
+- Executive memos and board updates must always lead with concrete figures before descriptive commentary.
+- Customer support escalation: If a user reports a critical billing discrepancy or security defect, notify the founding team within 2 hours.
