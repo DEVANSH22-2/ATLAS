@@ -43,23 +43,23 @@ System Architecture
                     └───────────────────────────────┘
                     
 Key Features
-Deterministic Financial SQL: Loads structured CSV metrics directly into an in-memory SQLite database (SQLAlchemy with StaticPool). Uses schema inspection and strict read-only execution to calculate metrics like runway and burn rate accurately without guessing.
+-Deterministic Financial SQL: Loads structured CSV metrics directly into an in-memory SQLite database (SQLAlchemy with StaticPool). Uses schema inspection and strict read-only execution to calculate metrics like runway and burn rate accurately without guessing.
 
-Policy Retrieval with ChromaDB: Parses and chunks internal documents (PDF, TXT, MD) into embeddings to answer questions on internal SOPs and rules.
+-Policy Retrieval with ChromaDB: Parses and chunks internal documents (PDF, TXT, MD) into embeddings to answer questions on internal SOPs and rules.
 
-Cross-Domain Scenario Testing: Synthesizes metrics and policies together. For example, it calculates new runway figures after a hypothetical hire and checks if the new number violates active hiring-freeze thresholds.
+-Cross-Domain Scenario Testing: Synthesizes metrics and policies together. For example, it calculates new runway figures after a hypothetical hire and checks if the new number violates active hiring-freeze thresholds.
 
-Founder Memo Generator: Generates a clean markdown briefing summarizing active KPIs, runway trajectory, and operational alerts with a single click.
+-Founder Memo Generator: Generates a clean markdown briefing summarizing active KPIs, runway trajectory, and operational alerts with a single click.
 
-Streamlit Interface: Clean dashboard featuring data upload controls, executive actions, and chat interaction.
+-Streamlit Interface: Clean dashboard featuring data upload controls, executive actions, and chat interaction.
 
 Tech Stack
-Workflow Orchestration: LangGraph, LangChain Core
+-Workflow Orchestration: LangGraph, LangChain Core
 
-LLM: Google Gemini (gemini-1.5-flash / gemini-1.5-pro)
+-LLM: Google Gemini (gemini-2.5-flash / gemini-embedding-2)
 
-Databases: In-Memory SQLite, ChromaDB
+-Databases: In-Memory SQLite, ChromaDB
 
-Data Processing: Pandas, PyPDF
+-Data Processing: Pandas, PyPDF
 
-Frontend: Streamlit
+-Frontend: Streamlit
